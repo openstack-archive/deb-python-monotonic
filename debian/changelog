@@ -1,0 +1,5 @@
+python-monotonic (0.2-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #789918)
+
+ -- Thomas Goirand <zigo@debian.org>  Thu, 25 Jun 2015 10:28:31 +0200
