@@ -96,6 +96,16 @@ except AttributeError:
                 """Monotonic clock, cannot go backward."""
                 return GetTickCount64() / 1000.0
 
+        elif sys.platform.startswith('cygwin'):
+            # Cygwin
+            kernel32 = ctypes.cdll.LoadLibrary('kernel32.dll')
+            GetTickCount64 = kernel32.GetTickCount64
+            GetTickCount64.restype = ctypes.c_ulonglong
+
+            def monotonic():
+                """Monotonic clock, cannot go backward."""
+                return GetTickCount64() / 1000.0
+
         else:
             try:
                 clock_gettime = ctypes.CDLL(ctypes.util.find_library('c'),
@@ -117,6 +127,8 @@ except AttributeError:
                 else:
                     CLOCK_MONOTONIC = 1
             elif sys.platform.startswith('freebsd'):
+                CLOCK_MONOTONIC = 4
+            elif sys.platform.startswith('sunos5'):
                 CLOCK_MONOTONIC = 4
             elif 'bsd' in sys.platform:
                 CLOCK_MONOTONIC = 3
