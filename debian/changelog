@@ -1,3 +1,9 @@
+python-monotonic (0.6-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Corey Bryant <corey.bryant@canonical.com>  Thu, 25 Feb 2016 14:26:18 -0500
+
 python-monotonic (0.3-1) unstable; urgency=medium
 
   * New upstream release.
