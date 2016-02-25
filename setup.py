@@ -13,7 +13,7 @@ it will fall back to an equivalent implementation:
 +-------------+--------------------+
 | Linux, BSD  | clock_gettime(3)   |
 +-------------+--------------------+
-| Windows     | GetTickCount64     |
+| Windows     | GetTickCount[64]   |
 +-------------+--------------------+
 | OS X        | mach_absolute_time |
 +-------------+--------------------+
@@ -31,7 +31,7 @@ except ImportError:
 
 setup(
     name='monotonic',
-    version='0.3',
+    version='0.6',
     license='Apache',
     author='Ori Livneh',
     author_email='ori@wikimedia.org',
