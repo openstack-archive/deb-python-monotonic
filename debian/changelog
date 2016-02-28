@@ -1,6 +1,10 @@
 python-monotonic (0.6-1) UNRELEASED; urgency=medium
 
+  [ Corey Bryant ]
   * New upstream release.
+
+  [ Ondřej Nový ]
+  * Fixed VCS URLs (https).
 
  -- Corey Bryant <corey.bryant@canonical.com>  Thu, 25 Feb 2016 14:26:18 -0500
 
