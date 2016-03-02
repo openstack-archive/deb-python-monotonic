@@ -1,4 +1,4 @@
-python-monotonic (0.6-1) UNRELEASED; urgency=medium
+python-monotonic (0.6-1) experimental; urgency=medium
 
   [ Corey Bryant ]
   * New upstream release.
