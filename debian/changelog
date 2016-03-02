@@ -8,6 +8,7 @@ python-monotonic (0.6-1) experimental; urgency=medium
 
   [ Thomas Goirand ]
   * Fixed debian/copyright ordering.
+  * Standards-Version: 3.9.7 (no change).
 
  -- Thomas Goirand <zigo@debian.org>  Wed, 02 Mar 2016 10:12:20 +0000
 
