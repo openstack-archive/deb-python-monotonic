@@ -6,7 +6,10 @@ python-monotonic (0.6-1) experimental; urgency=medium
   [ Ondřej Nový ]
   * Fixed VCS URLs (https).
 
- -- Corey Bryant <corey.bryant@canonical.com>  Thu, 25 Feb 2016 14:26:18 -0500
+  [ Thomas Goirand ]
+  * Fixed debian/copyright ordering.
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 02 Mar 2016 10:12:20 +0000
 
 python-monotonic (0.3-1) unstable; urgency=medium
 

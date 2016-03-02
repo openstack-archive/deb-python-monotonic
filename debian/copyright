@@ -2,12 +2,12 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: monotonic
 Source: https://github.com/atdt/monotonic
 
-Files: debian/*
-Copyright: (c) 2015, Thomas Goirand <zigo@debian.org>
+Files: *
+Copyright: (c) 2014-2016, Ori Livneh <ori@wikimedia.org>
 License: Apache-2
 
-Files: *
-Copyright: (c) 2014-2015, Ori Livneh <ori@wikimedia.org>
+Files: debian/*
+Copyright: (c) 2015-2016, Thomas Goirand <zigo@debian.org>
 License: Apache-2
 
 License: Apache-2
